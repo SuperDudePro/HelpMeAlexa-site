@@ -24,3 +24,8 @@ with the APS-restricted Google Form URL.
 - Replaced gradient backgrounds with solid colors so automated WCAG contrast tools can evaluate text contrast.
 - Reduced header brand text styling so it is not flagged as a faux heading.
 - Changed favicon/tab icon to a VP mark.
+
+
+## v8 accessibility note
+- Renamed stylesheet to `styles-v8.css` to force a fresh CSS load after the final contrast fix.
+- Added a high-specificity navy override for the Student Voice Form eyebrow text.

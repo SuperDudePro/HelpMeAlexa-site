@@ -288,3 +288,9 @@ h2 {
   }
 
 }
+
+/* Final WCAG contrast override: the form eyebrow sits on silver (#e6ebf0), so use navy text. */
+.form-section .form-card .form-eyebrow,
+.form-section .form-card p.form-eyebrow {
+  color: #002f5f;
+}
