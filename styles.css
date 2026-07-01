@@ -24,9 +24,7 @@ body {
   margin: 0;
   min-height: 100vh;
   color: var(--vp-deep);
-  background:
-    radial-gradient(circle at top left, rgba(120, 195, 236, 0.55), transparent 32rem),
-    linear-gradient(135deg, #ffffff 0%, var(--vp-ice) 48%, #f7fbff 100%);
+  background: #f7fbff;
   line-height: 1.55;
 }
 
@@ -79,7 +77,9 @@ a { color: inherit; }
 }
 
 .brand-name {
-  font-size: clamp(1.15rem, 2vw, 1.35rem);
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: -0.01em;
 }
 
 .header-tag {
@@ -99,9 +99,7 @@ a { color: inherit; }
   border: 4px solid var(--vp-silver-line);
   border-radius: 34px;
   color: var(--vp-white);
-  background:
-    linear-gradient(135deg, rgba(0, 47, 95, 0.96), rgba(0, 111, 186, 0.9)),
-    var(--vp-navy);
+  background: var(--vp-navy);
   box-shadow: var(--shadow);
 }
 
@@ -206,9 +204,8 @@ h2 {
 .notice-card,
 .form-card {
   border: 4px solid var(--vp-navy);
-  background: rgba(255, 255, 255, 0.88);
+  background: var(--vp-white);
   box-shadow: 0 16px 40px rgba(0, 47, 95, 0.08);
-  backdrop-filter: blur(10px);
 }
 
 .info-card {
@@ -235,7 +232,7 @@ h2 {
   padding: clamp(20px, 4vw, 30px);
   border-color: var(--vp-warning-line);
   border-radius: 28px;
-  background: linear-gradient(180deg, var(--vp-warning-bg), rgba(255, 255, 255, 0.9));
+  background: var(--vp-warning-bg);
 }
 
 .rule-list {
@@ -259,7 +256,7 @@ h2 {
   gap: 16px;
   padding: clamp(22px, 4vw, 34px);
   border-radius: 30px;
-  background: linear-gradient(180deg, var(--vp-silver), rgba(255, 255, 255, 0.92));
+  background: var(--vp-silver);
 }
 
 .form-card .eyebrow {

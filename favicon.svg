@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Help Me Alexa favicon">
-  <rect width="64" height="64" rx="16" fill="#002f5f"/>
-  <path d="M15 43V18h8l9 14 9-14h8v25h-8V29L33 41h-2l-8-12v14h-8z" fill="#78c3ec"/>
-  <circle cx="50" cy="14" r="6" fill="#ffffff"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="VP favicon">
+  <rect width="64" height="64" rx="14" fill="#002f5f"/>
+  <rect x="5" y="5" width="54" height="54" rx="11" fill="none" stroke="#e6ebf0" stroke-width="4"/>
+  <text x="32" y="41" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="900" fill="#ffffff" letter-spacing="-2">VP</text>
 </svg>

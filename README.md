@@ -18,3 +18,9 @@ with the APS-restricted Google Form URL.
 - Build Command: `npm run build`
 - Output Directory: `.`
 - Environment Variables: none
+
+## v6 accessibility cleanup
+
+- Replaced gradient backgrounds with solid colors so automated WCAG contrast tools can evaluate text contrast.
+- Reduced header brand text styling so it is not flagged as a faux heading.
+- Changed favicon/tab icon to a VP mark.
