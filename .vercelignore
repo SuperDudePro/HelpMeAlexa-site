@@ -1,0 +1,12 @@
+# Ignore everything by default so uploaded planning files are never deployed.
+*
+
+# Static site files only.
+!index.html
+!styles.css
+!script.js
+!favicon.svg
+!robots.txt
+!package.json
+!vercel.json
+!.vercelignore

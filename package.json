@@ -1,0 +1,10 @@
+{
+  "name": "helpmealexa",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Student voice landing page for HelpMeAlexa.com",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'Static site: no build step required'"
+  }
+}
