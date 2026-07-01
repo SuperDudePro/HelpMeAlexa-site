@@ -1,7 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Help Me Alexa icon">
-  <rect width="64" height="64" rx="16" fill="#101827"/>
-  <path d="M17 20h30v18H29l-8 7v-7h-4z" fill="#f8c14a"/>
-  <circle cx="25" cy="29" r="2.2" fill="#101827"/>
-  <circle cx="32" cy="29" r="2.2" fill="#101827"/>
-  <circle cx="39" cy="29" r="2.2" fill="#101827"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Help Me Alexa favicon">
+  <rect width="64" height="64" rx="16" fill="#002f5f"/>
+  <path d="M15 43V18h8l9 14 9-14h8v25h-8V29L33 41h-2l-8-12v14h-8z" fill="#78c3ec"/>
+  <circle cx="50" cy="14" r="6" fill="#ffffff"/>
 </svg>

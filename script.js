@@ -9,13 +9,15 @@ if (GOOGLE_FORM_URL) {
     link.href = GOOGLE_FORM_URL;
     link.textContent = "Open the Student Voice Form";
     link.removeAttribute("aria-disabled");
+    link.setAttribute("target", "_blank");
+    link.setAttribute("rel", "noopener noreferrer");
   });
   if (formStatus) {
-    formStatus.textContent = "The form is active. You will need to sign in with your APS account.";
+    formStatus.textContent = "Use your APS account to submit the form.";
   }
 } else {
   formLinks.forEach((link) => {
-    link.href = "#form-next";
+    link.href = "#form";
     link.setAttribute("aria-disabled", "true");
   });
 }
